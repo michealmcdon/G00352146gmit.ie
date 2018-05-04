@@ -1,0 +1,22 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>exercise</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-item *ngFor="let movie of movies">
+    <h2>{{movie.Title}}</h2>
+    <p>{{movie.Year}}</p>
+
+    <ion-thumbnail item-start>
+        <img width="200" height="200" src="{{movie.Poster}}">
+        </ion-thumbnail>
+
+    </ion-item>
+</ion-content>

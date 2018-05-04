@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <p text-center><ion-title>
+      Simple Fitness
+    </ion-title></p>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p text-center> <ion-title>Welcome: {{myName}}</ion-title></p>
+  <p text-center><button ion-button (click)="openBuildMuscle()">Build Muscle</button></p>
+  <p text-center> <button ion-button (click)="openLoseWeight()">Lose Weight</button></p>
+  <p text-center> <button ion-button (click)="openFeedback()">Feedback</button></p>
+  <p text-center> <button ion-button icon-only><ion-icon name="bulb" (click)="openFlashlight()"></ion-icon></button></p>
+</ion-content>
